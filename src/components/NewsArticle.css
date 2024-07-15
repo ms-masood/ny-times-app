@@ -1,0 +1,35 @@
+.article-view {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.article-view img {
+  display: block;
+  margin: 2rem auto 8rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.article-view h2 {
+  padding: 2rem;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article-view p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.article-view a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article-view a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.news-articles-list-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: calc(100vh - 8rem);
+}
+
+.news-articles-list {
+  overflow-y: scroll;
+  height: 100%;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-article-view {
+  flex-basis: 70%;
+}
